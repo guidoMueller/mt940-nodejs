@@ -1,9 +1,9 @@
 # mt940-js
 [![Build Status](https://travis-ci.org/webschik/mt940-js.svg?branch=master)](https://travis-ci.org/webschik/mt940-js)
-[![npm](https://img.shields.io/npm/dm/mt940-js.svg)](https://www.npmjs.com/package/mt940-js)
-[![npm](https://img.shields.io/npm/v/mt940-js.svg)](https://www.npmjs.com/package/mt940-js)
-[![npm](https://img.shields.io/npm/l/mt940-js.svg)](https://www.npmjs.com/package/mt940-js)
-[![Coverage Status](https://coveralls.io/repos/github/webschik/mt940-js/badge.svg?branch=master)](https://coveralls.io/github/webschik/mt940-js?branch=master)
+[![npm](https://img.shields.io/npm/dm/mt940-nodejs.svg)](https://www.npmjs.com/package/mt940-nodejs)
+[![npm](https://img.shields.io/npm/v/mt940-nodejs.svg)](https://www.npmjs.com/package/mt940-nodejs)
+[![npm](https://img.shields.io/npm/l/mt940-nodejs.svg)](https://www.npmjs.com/package/mt940-nodejs)
+[![Coverage Status](https://coveralls.io/repos/github/webschik/mt940-js/badge.svg?branch=master)](https://coveralls.io/github/webschik/mt940-nodejs?branch=master)
 
 > An isomorphic Javascript library for working with [MT940](#related-links) format
 

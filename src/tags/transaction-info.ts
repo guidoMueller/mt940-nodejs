@@ -52,7 +52,7 @@ const transactionInfoTag: Tag = {
             fundsCode: '',
             isCredit: false,
             isExpense: true,
-            currency: statement.openingBalance.currency,
+            currency: ((statement.openingBalance !== undefined) ? statement.openingBalance.currency : "EUR"),
             description: '',
             amount: 0,
             valueDate: '',

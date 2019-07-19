@@ -1,5 +1,5 @@
 {
-  "name": "mt940-js",
+  "name": "mt940-nodejs",
   "version": "0.6.0",
   "description": "An isomorphic Javascript library for working with MT940 format",
   "main": "./lib/index.js",
@@ -18,7 +18,7 @@
     "test": "npm run lint &&./node_modules/.bin/jest --no-cache",
     "coveralls": "npm run test && cat ./test/coverage/lcov.info | node ./node_modules/coveralls/bin/coveralls.js",
     "lint": "./node_modules/.bin/tslint \"src/**/*.ts\" \"test/unit/**/*.ts\"",
-    "build": "npm run lint && rm -rf lib && ./node_modules/.bin/tsc",
+    "build": "rm -rf lib && ./node_modules/.bin/tsc",
     "lock": "npm shrinkwrap --dev"
   },
   "repository": {

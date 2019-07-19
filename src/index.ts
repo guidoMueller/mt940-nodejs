@@ -33,12 +33,12 @@ export interface BalanceInfo {
 
 export interface Transaction {
     id: string;
-    code: string;
-    fundsCode: string;
-    isCredit: boolean;
-    isExpense: boolean;
-    currency: string;
-    description: string;
+    code?: string;
+    fundsCode?: string;
+    isCredit?: boolean;
+    isExpense?: boolean;
+    currency?: string;
+    description?: string;
     amount: number;
     valueDate: string;
     entryDate: string;
